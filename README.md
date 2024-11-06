@@ -12,6 +12,11 @@ For the set completion, the following functions implementations was necessary (o
 * **hash:** hashes a word and returns the corresponding index in the table.
 * **size:** if loaded in memory, returns the number of words stored in the table.
 
+Example of expected output (time of execution varies depending on the implementation and system specs):
+
+![image](https://github.com/user-attachments/assets/ab4b18ca-2750-45a1-8218-0735f26f5bef)
+
+
 # Solution
 The aproach used in the program, was to use a imense hash table that index words bases on the first three characters of a word. So in the hash table, the index[0] == AAA, index[1] == AAB, index[2] == AAC, ..., all the way to index[17575] == ZZZ. 
 
